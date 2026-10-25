@@ -27,7 +27,8 @@ registry.category("web_tour.tours").add("website_event_require_login_public", {
         },
         {
             content: "Login-required modal body is visible",
-            trigger: "#modal_attendees_registration.o_wevent_require_login_modal .modal-body",
+            trigger:
+                "#modal_attendees_registration.o_wevent_require_login_modal .modal-body",
         },
         {
             content: "Login link points to /web/login",
@@ -36,7 +37,8 @@ registry.category("web_tour.tours").add("website_event_require_login_public", {
         },
         {
             content: "Close the login-required modal",
-            trigger: "#modal_attendees_registration.o_wevent_require_login_modal .js_goto_event",
+            trigger:
+                "#modal_attendees_registration.o_wevent_require_login_modal .js_goto_event",
             run: "click",
         },
     ],
